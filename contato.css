@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(123, 122, 122);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-contato {
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container-contato a {
+    text-decoration: none;
+    color: black;
+}
+.container-contato p:hover {
+    width: 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+.ctt-img{
+    padding: 5px;
+}
+.main-contatos {
+    height: 76vh;
+}
+.borderbox {
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-top: 80px;
+}
+.main-contatos h1 {
+    padding-left:100px;
+    text-align: center;
+    margin-top: 15px;
+}
+.main-contatos p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 20px 0px 10px 10px;
+}
+.email-contato {
+    display: flex;
+    padding-left: 110px;
+}
+.motivos-contato {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin: 0px 110px;
+}
+.submit {
+    margin-bottom: 10px;
+}
+.footer-direitos p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}

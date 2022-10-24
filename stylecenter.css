@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+body {
+    background-color: beige;
+}
+header {
+    width: 100%;
+    background-color: rgb(123, 122, 122);
+    display: flex;
+    justify-content: space-around;
+}
+.container-logo {
+    padding: 10px 0px;
+}
+.menu li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: nome;
+    color: black;
+    text-transform: uppercase;
+    margin: 0px 5px;
+    padding: 5px 5px;
+}
+.menu li:hover {
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.apresentacao h1{
+    text-align: center;
+    padding: 50px 0;
+}
+.apresentacao p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.modalidades-img{
+    display: flex;
+    margin: auto;
+    padding: 18px 0;
+}
+.modalidades h1 {
+   text-align: center;
+}
+.main-footer {
+    background-color: black;
+}
+.footerimg {
+    margin-left: 50%;
+    padding: 10px ;
+}
+
